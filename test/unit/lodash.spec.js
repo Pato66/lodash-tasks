@@ -97,7 +97,7 @@ describe('Lodash training', function ()
             {
                 expect(interceptor instanceof Function).to.eql(true);
                 expect(params).to.have.length(2);
-                expect(array).to.have.length(4);
+                expect(array).to.have.length(5);
                 _(array).forEach(function (values)
                 {
                     expect(typeof values).to.eql('number');
